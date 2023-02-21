@@ -7,16 +7,16 @@ import Contact from "./components/Contact";
 import Portfolio from "./components/Projects";
 function App() {
   return (
-    <>
-      <NavBar/>
-      <Home/>
-      <About/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-      <SocialLinks/>
+    <div>
+      <NavBar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
 
-    </>
+      <SocialLinks />
+    </div>
   );
 }
 

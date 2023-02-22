@@ -2,17 +2,17 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
-      name="about"
-      className=" w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    <section
+      id="about"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className=" text-4xl font-bold inline border-b-4 border-gray-500">
+        <header className="pb-8">
+          <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
-          </p>
-        </div>
-        <p className=" text-xl mt-20">
+          </h2>
+        </header>
+        <p className="text-xl mt-20">
           Hello everyone! I'm a 19-year-old from Argentina who has a passion for
           music and programming. As an enthusiastic junior developer, I'm always
           on the lookout for new challenges that can help me hone my skills and
@@ -28,7 +28,7 @@ const About = () => {
           of successful internships at various companies.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

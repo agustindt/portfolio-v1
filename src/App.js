@@ -1,10 +1,12 @@
-import Home from "./components/Home";
+import React from "react";
 import NavBar from "./components/NavBar";
-import SocialLinks from "./components/SocialLinks";
+import Home from "./components/Home";
 import About from "./components/About";
+import Portfolio from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import Portfolio from "./components/Projects";
+import SocialLinks from "./components/SocialLinks";
+
 function App() {
   return (
     <div>

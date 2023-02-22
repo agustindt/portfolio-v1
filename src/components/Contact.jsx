@@ -14,25 +14,33 @@ const Contact = () => {
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
 
-        <div className=" flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <form
             action="https://getform.io/f/1cdc70c6-13d8-47f8-92d1-9d1e2cff25f3"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full md:w-1/2"
           >
+            <label htmlFor="name">Name</label>
             <input
               type="text"
+              id="name"
               name="name"
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
+
+            <label htmlFor="email">Email</label>
             <input
-              type="text"
+              type="email"
+              id="email"
               name="email"
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
+
+            <label htmlFor="message">Message</label>
             <textarea
+              id="message"
               name="message"
               placeholder="Enter your message"
               rows="10"

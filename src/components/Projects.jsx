@@ -3,6 +3,7 @@ import PokedexImage from "../assets/portfolio/PokedexJS.jpg";
 import BuzzFeedImage from "../assets/portfolio/BuzzFeed.jpg";
 import FinalHSImage from "../assets/portfolio/FinalHS.jpg";
 import ReactPortfolioImage from "../assets/portfolio/reactporfolio.jpg";
+import Dijkstra from '../assets/portfolio/Dijkstra.jpg'
 
 const PortfolioItem = ({ src, link }) => {
   const handleLinkClick = () => {
@@ -46,6 +47,12 @@ const Portfolio = () => {
       src: PokedexImage,
       link: "https://github.com/agustindt/Pokedex-ReactJS",
     },
+    {
+      id: 5,
+      src: Dijkstra,
+      link: "https://github.com/agustindt/pathfinding-app",
+    },
+
   ];
 
   return (
